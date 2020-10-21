@@ -71,3 +71,28 @@ img {
 .clear {
   clear: both;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 420px) {
+/* IMPOSTAZIONI AL BODY */
+  body {
+    background-color: tomato;
+    font-size: 50px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+    margin-bottom: 10%;
+  }
+
+  .container.grey {
+    background-color: tomato;
+  }
+
+
+
+
+}
