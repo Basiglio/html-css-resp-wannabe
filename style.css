@@ -72,10 +72,10 @@ img {
   clear: both;
 }
 
-/* MEDIA QUERY */
 
+/* MEDIA QUERY IPHONE */
 @media screen and (max-width: 420px) {
-/* IMPOSTAZIONI AL BODY */
+
   body {
     background-color: tomato;
     font-size: 50px;
@@ -92,7 +92,20 @@ img {
     background-color: tomato;
   }
 
+}
+/* MEDIA QUERY IPAD */
+@media screen and (min-width: 420px) and (max-width:800px) {
 
-
+  body {
+    background-color: black;
+    font-size: 30px;
+  }
+  .row {
+    width: 100%;
+    background-color: tomato;
+  }
+  #why .row img {
+    border-radius: 0%;
+  }
 
 }
