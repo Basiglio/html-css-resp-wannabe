@@ -78,7 +78,7 @@ img {
 
   body {
     background-color: tomato;
-    font-size: 50px;
+    font-size: 80px;
   }
 
   #lezioni .row>.left,
@@ -92,9 +92,24 @@ img {
     background-color: tomato;
   }
 
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  background-color: white;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    padding-bottom: 200px;
+  }
+
+
 }
 /* MEDIA QUERY IPAD */
-@media screen and (min-width: 420px) and (max-width:800px) {
+@media screen and (min-width: 420px) and (max-width:1024px) {
 
   body {
     background-color: black;
@@ -102,10 +117,19 @@ img {
   }
   .row {
     width: 100%;
-    background-color: tomato;
+    background-color: black;
+    color: white;
   }
+
   #why .row img {
     border-radius: 0%;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    background-color: lightblue;
+    color: black;
   }
 
 }
